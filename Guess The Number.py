@@ -5,7 +5,7 @@ clear = lambda: os.system('clear' or  'cls')
 
 def Game():
 
-    print('''\t----{Developed By Vaibhav mishra}----
+    print('''\t----{Developed By Vaibhaw mishra}----
 
 \n\nWELCOME TO THE GAME, GUESS THE CORRECT NUMBER
 
