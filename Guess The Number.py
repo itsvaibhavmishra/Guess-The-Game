@@ -1,8 +1,10 @@
+#Import packages
 import random
 import os
 
-clear = lambda: os.system('clear' or  'cls')
+clear = lambda: os.system('clear' or  'cls') #clear os
 
+# function Game
 def Game():
 
     print('''\t----{Developed By Vaibhaw mishra}----
@@ -31,20 +33,19 @@ def Game():
             break
     print("GAME OVER!!\n\n")
     again()
-
+# function again
 def again():
+    # take user input
     x = input("Do You Wish to play again? (Y/n): ")
-
+    
     if x == 'y':
         clear()
         Game()
-
     elif x == 'n':
         clear()
         print("\nThank You for playing")
-
     else:
-
         again()
 
+# call function
 Game()
